@@ -4,11 +4,14 @@
 
 ## User Guides
 
-* [Borrow App](user-guides/borrow-app.md)
+* [Borrow App](user-guides/borrow-app/README.md)
+  * [Borrow](user-guides/borrow-app/borrow.md)
+  * [Lend](user-guides/borrow-app/lend.md)
+  * [Pay Back](user-guides/borrow-app/pay-back.md)
 
 ## Learn
 
-* [Untitled](learn/untitled.md)
+* [Tranche](learn/untitled.md)
 
 ## Developers
 
