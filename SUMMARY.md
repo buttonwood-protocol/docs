@@ -4,8 +4,7 @@
 
 ## User Guides
 
-* [User Guides](user-guides/user-guides/README.md)
-  * [Borrow App](user-guides/user-guides/borrow-app.md)
+* [Borrow App](user-guides/borrow-app.md)
 
 ## Learn
 
