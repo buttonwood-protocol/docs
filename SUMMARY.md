@@ -17,5 +17,9 @@
 ## Developers
 
 * [Tranche](developers/tranche/README.md)
-  * [test](developers/tranche/test.md)
+  * [Tranche](developers/tranche/Tranche.md)
+  * [TrancheFactory](developers/tranche/TrancheFactory.md)
+  * [Bond](developers/tranche/BondController.md)
+  * [BondFactory](developers/tranche/BondFactory.md)
+  * [UniV3LoanRouter](developers/tranche/UniV3LoanRouter.md)
 
