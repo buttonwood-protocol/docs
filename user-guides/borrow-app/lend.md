@@ -24,7 +24,7 @@ Make your way to the `write contract` section of the bond contract. Connect your
 
 After clicking `write`, and waiting for the transaction to confirm, you should end up with a bunch of TRANCHE Tokens
 
-![](../../.gitbook/assets/screenshot-from-2021-09-24-14-34-23%20%281%29.png)
+![](../../.gitbook/assets/screenshot-from-2021-09-24-14-34-23%20%281%29%20%281%29.png)
 
 
 
