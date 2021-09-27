@@ -16,5 +16,3 @@
 
 ## Developers
 
-* [Untitled](developers/untitled.md)
-

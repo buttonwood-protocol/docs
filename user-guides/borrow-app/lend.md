@@ -12,7 +12,7 @@ The first step of the process is to deposit collateral for TRANCHE tokens. To do
 
 Firstly, you need to `approve` your collateral to the Bond contract. In our case we are using AMPL as collateral, so we will go to the AMPL etherscan page. Under `write contract`, connect your wallet and click `approve`. Enter the bond address as the `spender`, and the amount of collateral you want to deposit as the `amount.`
 
-![](../../.gitbook/assets/screenshot-from-2021-09-24-14-31-17.png)
+![](../../.gitbook/assets/screenshot-from-2021-09-24-14-31-17%20%281%29.png)
 
 Then click `write` to finish approving the collateral. 
 
@@ -20,11 +20,11 @@ Then click `write` to finish approving the collateral.
 
 Make your way to the `write contract` section of the bond contract. Connect your wallet and enter the amount of collateral you want to deposit. 
 
-![](../../.gitbook/assets/screenshot-from-2021-09-24-14-33-08.png)
+![](../../.gitbook/assets/screenshot-from-2021-09-24-14-33-08%20%281%29.png)
 
 After clicking `write`, and waiting for the transaction to confirm, you should end up with a bunch of TRANCHE Tokens
 
-![](../../.gitbook/assets/screenshot-from-2021-09-24-14-34-23-1-.png)
+![](../../.gitbook/assets/screenshot-from-2021-09-24-14-34-23%20%281%29.png)
 
 
 
