@@ -1,6 +1,6 @@
-# Lend
+# Market Making
 
-Currently there is no UI interface for lending. However, it is possible via a couple manual steps.
+Currently there is no UI interface for market making. However, it is possible via a couple manual steps.
 
 
 
