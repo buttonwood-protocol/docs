@@ -18,7 +18,7 @@ This mechanism has a very nice quality in that it allows for stable contracts. F
 
 Rebasing assets' price stability make them great assets for contract denomination.
 
-\---
+## Clean Integrations
 
 Another very important benefit of rebasing assets is that they naturally _abstract price information_ away from integrations. 
 
@@ -26,7 +26,7 @@ For example, a traditional DeFi lending platform like Aave needs a complex oracl
 
 Lending applications build with rebasing assets don't actually need price data - they only need access to the balances of the asset. Value is expressed directly in the contract's changing balance - the price can always be assumed to be stable and around $1.  
 
-\---
+## Buttonwood Rebasing Tokens
 
 Buttonwood extends this concept with the `ButtonToken` - an asset that can turn any crypto-asset into a rebasing asset, as long as it has a solid price-feed oracle. 
 

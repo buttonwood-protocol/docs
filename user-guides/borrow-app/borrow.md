@@ -28,7 +28,9 @@ Their wallet will then pop up a transaction to approve the configured amount of 
 
 ![](https://lh5.googleusercontent.com/gR9UZe3VcUBWJevUS0QVZ3kvNIgl-KRC6IDgLcCd-dLdP2TFDRL4PiUVn-h-ItFKlMtZepkeZHQX9kH_AtdD1WjwHASPM-PqqNeNch3syXzhZdQEEtHo30DU8Qkjq5TuEVJFx2zu=s0)
 
-Once that transaction confirms, the loan has been created! The user’s USDT balance should have increased by their requested value:
+{% hint style="success" %}
+Once that transaction confirms, the loan has been created! The user’s USDT balance should have increased by their requested value.
+{% endhint %}
 
 ![](https://lh4.googleusercontent.com/IETG3qXeXF6mPDcUZ7FdDzQbxjQ4tOTQO97zWGb0J3jCQufay5ti2mipSiP47sbnlIsWqspmGw5z3I-84DWZt-Iz8T1Tc1xX0YTtKhCc3NeaqpISu-P2R8TAI5TTpT8Lf1zELDk2=s0)
 
