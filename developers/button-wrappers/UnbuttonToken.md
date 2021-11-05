@@ -1,79 +1,119 @@
-# UnbuttonToken
+## `UnbuttonToken`
+
+/**
+
+
+The UnbuttonToken wraps elastic balance (rebasing) tokens like
+     AMPL, Chai and AAVE's aTokens, to create a fixed balance representation.
+
+     The ratio of a user’s balance to the total supply represents
+     their share of the total deposit pool.
+
+/
+c
+
+
+### `initialize(address underlying_, string name_, string symbol_, uint256 initialRate)` (public)
+
+/ @param underlying_ The underlying ERC20 token address.
 
 
 
-The UnbuttonToken wraps elastic balance (rebasing) tokens like AMPL, Chai and AAVE's aTokens, to create a fixed balance representation.
 
-The ratio of a user's balance to the total supply represents their share of the total deposit pool.
+### `mint(uint256 amount) → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
 
 
 
-## API Documentation
+### `mintFor(address to, uint256 amount) → uint256` (external)
 
-## `initialize(address underlying_, string name_, string symbol_, uint256 initialRate)` (public)
+/ @inheritdoc IButtonWrapper
 
-Initializes the token with the given parameters.
 
-## `mint(uint256 amount) → uint256` (external)
 
-Mints the given amount of Unbutton tokens for the user. Transfers an equivalent value of underlying tokens from the user to the contract.
+### `burn(uint256 amount) → uint256` (external)
 
-## `mintFor(address to, uint256 amount) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Mints the given amount of Unbutton tokens for `to`. Transfers an equivalent value of underlying tokens from the caller to the contract.
 
-## `burn(uint256 amount) → uint256` (external)
 
-Burns the given amount of Unbutton tokens from the caller. Transfers an equivalent value of underlying tokens from the contract to the caller.
+### `burnTo(address to, uint256 amount) → uint256` (external)
 
-## `burnTo(address to, uint256 amount) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Burns the given amount of Unbutton tokens from the caller. Transfers an equivalent value of underlying tokens from the contract to `to`.
 
-## `burnAll() → uint256` (external)
 
-Burns all Unbutton tokens from the caller. Transfers an equivalent value of underlying tokens from the contract to the caller.
+### `burnAll() → uint256` (external)
 
-## `burnAllTo(address to) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Burns all Unbutton tokens from the caller. Transfers an equivalent value of underlying tokens from the contract to `to`.
 
-## `deposit(uint256 uAmount) → uint256` (external)
 
-Deposit the given number of underlying tokens from the caller to the contract. Mints an equivalent value of Unbutton tokens to the caller.
+### `burnAllTo(address to) → uint256` (external)
 
-## `depositFor(address to, uint256 uAmount) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Deposit the given number of underlying tokens from the caller to the contract. Mints an equivalent value of Unbutton tokens to `to`.
 
-## `withdraw(uint256 uAmount) → uint256` (external)
 
-Withdraw the given number of underlying tokens from the contract. Transfers an equivalent value of Unbutton tokens from the caller to the contract.
+### `deposit(uint256 uAmount) → uint256` (external)
 
-## `withdrawTo(address to, uint256 uAmount) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Withdraw the given number of underlying tokens to `to` from the contract. Transfers an equivalent value of Unbutton tokens from the caller to the contract.
 
-## `withdrawAll() → uint256` (external)
 
-Withdraw caller's entire balance of underlying tokens. Transfers an equivalent value of Unbutton tokens from the caller to the contract.
+### `depositFor(address to, uint256 uAmount) → uint256` (external)
 
-## `withdrawAllTo(address to) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Withdraw caller's entire balance of underlying tokens for `to`. Transfers an equivalent value of Unbutton tokens from the caller to the contract.
 
-## `totalUnderlying() → uint256` (external)
 
-The total number of underlying tokens held by the contract.
+### `withdraw(uint256 uAmount) → uint256` (external)
 
-## `balanceOfUnderlying(address owner) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Returns `owner`'s balance in terms of the underlying token.
 
-## `underlyingToWrapper(uint256 uAmount) → uint256` (external)
 
-Returns the equivalent value of Unbutton tokens for the given amount of underlying tokens.
+### `withdrawTo(address to, uint256 uAmount) → uint256` (external)
 
-## `wrapperToUnderlying(uint256 amount) → uint256` (external)
+/ @inheritdoc IButtonWrapper
 
-Returns the equivalent value of Unbutton tokens for the given amount of underlying tokens.
+
+
+### `withdrawAll() → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+### `withdrawAllTo(address to) → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+### `totalUnderlying() → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+### `balanceOfUnderlying(address owner) → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+### `underlyingToWrapper(uint256 uAmount) → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+### `wrapperToUnderlying(uint256 amount) → uint256` (external)
+
+/ @inheritdoc IButtonWrapper
+
+
+
+
