@@ -30,4 +30,4 @@
   * [UnbuttonToken](developers/button-wrappers/UnbuttonToken.md)
   * [ButtonTokenFactory](developers/button-wrappers/ButtonTokenFactory.md)
   * [UnbuttonTokenFactory](developers/button-wrappers/UnbuttonTokenFactory.md)
-  * [ChainlinkOracle](developers/button-wrappers/ChainlinkOracle.md)
+  * [ChainlinkOracle](developers/button-wrappers/chainlinkoracle.md)
