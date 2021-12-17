@@ -1,20 +1,11 @@
-## `TrancheFactory`
-
-
+# TrancheFactory
 
 Factory for Tranche minimal proxy contracts
 
+## API Documentation
 
-### `constructor(address _target)` (public)
+## `constructor(address _target)` (public)
 
-
-
-
-
-### `createTranche(string name, string symbol, address _collateralToken) → address` (external)
-
-
+## `createTranche(string name, string symbol, address _collateralToken) → address` (external)
 
 Deploys a minimal proxy instance for a new tranche ERC20 token with the given parameters.
-
-

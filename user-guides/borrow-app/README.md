@@ -4,22 +4,32 @@ description: >-
   application
 ---
 
-# Borrow App
+# Mooncake
 
-**Moon Cake (tentative name) is a collateralized borrowing platform created by **[**PRL.one**](https://www.prl.one)**. It offers users the ability to borrow cash, using their cryptocurrency holdings as collateral, at a fixed rate with no liquidation. This document will serve as a user guide, including a how-to guide and explanation about the protocol. **
+**Mooncake is a collateralized borrowing platform created by** [**PRL.one**](https://www.prl.one)**. It offers users the ability to borrow cash, using their cryptocurrency holdings as collateral, at a fixed rate with no liquidation. This document will serve as a user guide, including a how-to guide and explanation about the protocol.**&#x20;
 
-## **Deployment Details**
+Visit the application at [mooncake.prl.one](https://mooncake.prl.one)
 
-Current Status: Kovan testnet
 
-Link to site: [borrow.prl.one](http://borrow.prl.one)
 
-Current Supported Collateral: AMPL
+## Guides
 
-Deployed addresses:
+This section contains some user guides showing processes for various workflows in the Mooncake application.
 
-* AMPL 30 day bond: [0x8b3ea6492d25796346aa8a2c2e63da3e9e0ef75a](https://kovan.etherscan.io/address/0x8b3ea6492d25796346aa8a2c2e63da3e9e0ef75a)
-* UNIv3 Loan Router: [0xc62c232cfbcf3f45c167a722e90dae3311c75de1](https://kovan.etherscan.io/address/0xc62c232cfbcf3f45c167a722e90dae3311c75de1)
-* Testnet AMPL: [0x3e0437898a5667a4769b1ca5a34aab1ae7e81377](https://kovan.etherscan.io/token/0x3e0437898a5667a4769b1ca5a34aab1ae7e81377)
-* Testnet USDT: [0xaff4481d10270f50f203e0763e2597776068cbc5](https://kovan.etherscan.io/token/0xaff4481d10270f50f203e0763e2597776068cbc5)****\
-  ****
+
+
+{% content-ref url="borrow.md" %}
+[borrow.md](borrow.md)
+{% endcontent-ref %}
+
+{% content-ref url="lend-1.md" %}
+[lend-1.md](lend-1.md)
+{% endcontent-ref %}
+
+{% content-ref url="lend.md" %}
+[lend.md](lend.md)
+{% endcontent-ref %}
+
+{% content-ref url="pay-back.md" %}
+[pay-back.md](pay-back.md)
+{% endcontent-ref %}

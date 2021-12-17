@@ -15,7 +15,7 @@
 
 ## User Guides
 
-* [Borrow App](user-guides/borrow-app/README.md)
+* [Mooncake](user-guides/borrow-app/README.md)
   * [Borrow](user-guides/borrow-app/borrow.md)
   * [Lend](user-guides/borrow-app/lend-1.md)
   * [Market Making](user-guides/borrow-app/lend.md)
@@ -23,6 +23,7 @@
 
 ## Developers
 
+* [Deployed Contracts](developers/deployed-contracts.md)
 * [Tranche](developers/tranche/README.md)
   * [Tranche](developers/tranche/Tranche.md)
   * [TrancheFactory](developers/tranche/TrancheFactory.md)

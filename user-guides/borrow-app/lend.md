@@ -6,35 +6,31 @@ Currently there is no UI interface for market making. However, it is possible vi
 
 ## Deposit Collateral
 
-The first step of the process is to deposit collateral for TRANCHE tokens. To do this, you will need to identify the address of the _bond_ instance that you want to lend to. In this example, we will use the testnet instance located [here](https://kovan.etherscan.io/address/0x8b3ea6492d25796346aa8a2c2e63da3e9e0ef75a) (0x8b3ea6492d25796346aa8a2c2e63da3e9e0ef75a).
+The first step of the process is to deposit collateral for TRANCHE tokens. To do this, you can use the `LP` tab on [https://app.mooncake.prl.one](https://app.mooncake.prl.one)
 
-#### Approve
+#### Select USDT amount
 
-Firstly, you need to `approve` your collateral to the Bond contract. In our case we are using AMPL as collateral, so we will go to the AMPL etherscan page. Under `write contract`, connect your wallet and click `approve`. Enter the bond address as the `spender`, and the amount of collateral you want to deposit as the `amount.`
+Firstly, you need to select the amount of AMPL that you want to deposit.&#x20;
 
-![](<../../.gitbook/assets/screenshot-from-2021-09-24-14-31-17 (1) (1).png>)
+![](<../../.gitbook/assets/Screenshot from 2021-12-17 14-23-47.png>)
 
-Then click `write` to finish approving the collateral. 
+Then click `Deposit Liquidity` to start the transaction flow.&#x20;
 
-#### Deposit
+![](<../../.gitbook/assets/Screenshot from 2021-12-17 14-25-37.png>)
 
-Make your way to the `write contract` section of the bond contract. Connect your wallet and enter the amount of collateral you want to deposit. 
+Confirm the transaction with your wallet, and you will receive some AMPL-Tranche tokens in return. Now we can use these to deposit liquidity on UniswapV3!
 
-![](<../../.gitbook/assets/screenshot-from-2021-09-24-14-33-08 (1) (1).png>)
 
-After clicking `write`, and waiting for the transaction to confirm, you should end up with a bunch of TRANCHE Tokens
-
-![](<../../.gitbook/assets/screenshot-from-2021-09-24-14-34-23 (1) (1).png>)
 
 
 
 ## Provide Liquidity on Uniswap
 
-The main borrowing pools on Uniswap are TRANCHE-A / USDC and TRANCHE-B / USDC. In order to lend, you will need to supply liquidity to these pools. 
+The main borrowing pools on Uniswap are TRANCHE-A / USDT and TRANCHE-B / USDT. In order to lend, you will need to supply liquidity to these pools.&#x20;
 
-1. Acquire some USDC of equal value to your A and B tranche tokens
+1. Acquire some USDT of equal value to your A and B tranche tokens
 2. Go to app.uniswap.org, click "Pool"
 3. Click "New Position"
-4. Enter TRANCHE-A as the first token, and USDC as the second token
+4. Enter TRANCHE-A as the first token, and USDT as the second token
 5. Enter the amount of liquidity you want to add, and finish going through the wizard flow
 6. Repeat steps 3-5 for your TRANCHE-B tokens.
