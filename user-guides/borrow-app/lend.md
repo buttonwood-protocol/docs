@@ -35,6 +35,8 @@ The main borrowing pools on Uniswap are TRANCHE-A / USDT and TRANCHE-B / USDT. I
 5. Enter the amount of liquidity you want to add, and finish going through the wizard flow
 6. Repeat steps 3-5 for your TRANCHE-B tokens.
 
+![](<../../.gitbook/assets/Screenshot from 2021-12-17 18-25-45.png>)
+
 
 
 The UNIv3 pools for the beta AMPL bond can be found here:
