@@ -10,7 +10,7 @@ Tranche is a protocol for _stratifying price risk_ of crypto-assets. At the core
 
 
 
-![ButtonTranche stratifies crypto-assets into new assets representing different risk levels](../.gitbook/assets/image.png)
+![ButtonTranche stratifies crypto-assets into new assets representing different risk levels](../../.gitbook/assets/image.png)
 
 
 

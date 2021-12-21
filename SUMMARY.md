@@ -4,14 +4,15 @@
 
 ## Learn
 
-* [(TODO) Why Buttonwood?](learn/todo-why-buttonwood.md)
 * [(TODO) Comparison to Aave](learn/todo-comparison-to-aave.md)
 * [(TODO) Debtor Tokens](learn/todo-debtor-tokens.md)
-* [(TODO) ButtonBonds](learn/todo-buttonbonds.md)
+* [Tranche](learn/untitled/README.md)
+  * [Anatomy of a ButtonBond](learn/untitled/anatomy-of-a-buttonbond.md)
+  * [Deposit Flow](learn/untitled/deposit-flow.md)
+  * [Redemption Flow](learn/untitled/redemption-flow.md)
 * [Elastic Supply Assets](learn/elastic-supply-assets/README.md)
   * [ButtonToken](learn/elastic-supply-assets/buttontoken.md)
   * [UnbuttonToken](learn/elastic-supply-assets/unbuttontoken.md)
-* [Tranche](learn/untitled.md)
 
 ## User Guides
 
