@@ -4,8 +4,6 @@
 
 ## Learn
 
-* [(TODO) Comparison to Aave](learn/todo-comparison-to-aave.md)
-* [(TODO) Debtor Tokens](learn/todo-debtor-tokens.md)
 * [Tranche](learn/untitled/README.md)
   * [Anatomy of a ButtonBond](learn/untitled/anatomy-of-a-buttonbond.md)
   * [Deposit Flow](learn/untitled/deposit-flow.md)
